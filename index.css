@@ -1,0 +1,183 @@
+body {
+    margin: 0px;
+    background-color: darkgray;
+    font-family: Arial, sans-serif;
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    width: 100%;
+    background-color: lightseagreen;
+    overflow: auto;
+    position: fixed;
+}
+
+.navbar a {
+    float: left;
+    text-align: center;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar a:hover {
+    background-color: #000;
+}
+
+
+/* Current/active navbar link */
+
+.active {
+    background-color: #04AA6D;
+}
+
+
+/* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+
+@media screen and (max-width: 500px) {
+    .navbar a {
+        float: none;
+        display: block;
+    }
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+header {
+    color: red;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    margin: 10px 0 0;
+    font-size: 1.2em;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: lightgray;
+    border-bottom: 2px solid lightgray;
+    padding-bottom: 5px;
+    font-size: 1.8em;
+}
+
+p {
+    margin: 10px 0;
+}
+
+blockquote {
+    background-color: lightgrey;
+    border-left: 5px solid lightgray;
+    padding: 10px 20px;
+    margin: 20px 0;
+    font-style: italic;
+}
+
+blockquote footer {
+    text-align: right;
+    font-weight: bold;
+    color: lightgray;
+}
+
+footer {
+    background-color: lightgray;
+    color: red;
+    padding: 10px;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+#img {
+    margin: 50px;
+}
+
+#t1 {
+    justify-content: left;
+    display: flex;
+    margin-top: 150px;
+    margin-left: 50px;
+}
+
+#btn1 {
+    justify-content: left;
+    display: flex;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+#t2 {
+    justify-content: left;
+    display: flex;
+    margin: 100px;
+    margin-left: 800px;
+    color: blue;
+    margin-top: -850px;
+}
+
+#t3 {
+    font-size: 18px;
+    justify-content: left;
+    display: flex;
+    margin: 100px;
+    margin-left: 800px;
+    color: black;
+}
+
+#img1 {
+    margin-left: 20px;
+    margin-top: 20px;
+    height: 900px;
+}
+
+#t4 {
+    font-size: 50px;
+    margin-top: -100px;
+    margin: 450px;
+    color: blue;
+}
+
+#cont1 {
+    margin: 300px;
+}
+
+.header {
+    width: 100%;
+    padding: 15px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 999;
+}
+
+.username {
+    font-size: 16px;
+    color: #34495e;
+    margin-right: 20px;
+}
